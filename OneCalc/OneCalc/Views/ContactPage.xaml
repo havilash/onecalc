@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="OneCalc.Views.ContactPage"
+             Title="ContactPage">
+    <Grid ColumnDefinitions="80,*" RowDefinitions="*,*,*,*,*,*,*,*" ColumnSpacing="10" Margin="25">
+        <Label Text="Name:"
+               FontSize="14"
+               Grid.Row="0"
+               Grid.Column="0"
+               VerticalTextAlignment="Center"/>
+
+        <Entry Grid.Row="0"
+               Grid.Column="1"
+               HeightRequest="10"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center">
+            <Entry.Behaviors>
+                <toolkit:TextValidationBehavior
+                    InvalidStyle="{StaticResource InvalidEntryStyle}"
+                    Flags="ValidateOnValueChanged"
+                    MinimumLength="1"/>
+            </Entry.Behaviors>
+
+        </Entry>
+
+
+        <Label Text="Email:"
+               FontSize="14"
+               Grid.Row="1"
+               Grid.Column="0"
+               VerticalTextAlignment="Center"/>
+
+        <Entry Grid.Row="1"
+               Grid.Column="1"
+               HeightRequest="10"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center">
+            <Entry.Behaviors>
+                <toolkit:EmailValidationBehavior
+                    InvalidStyle="{StaticResource InvalidEntryStyle}"
+                    Flags="ValidateOnValueChanged"/>
+            </Entry.Behaviors>
+
+        </Entry>
+
+
+        <Label Text="Telefon:"
+               FontSize="14"
+               Grid.Row="2"
+               Grid.Column="0"
+               VerticalTextAlignment="Center"/>
+
+        <Entry Grid.Row="2"
+               Grid.Column="1"
+               HeightRequest="10"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center">
+            <Entry.Behaviors>
+                <toolkit:NumericValidationBehavior
+                InvalidStyle="{StaticResource InvalidEntryStyle}"
+                Flags="ValidateOnValueChanged"/>
+            </Entry.Behaviors>
+        
+        </Entry>
+
+        <Label Text="Delete Data"
+               FontSize="14"
+               Grid.Row="3"
+               Grid.Column="0"
+               VerticalTextAlignment="Center"/>
+        <Switch Grid.Row="3"
+                Grid.Column="1"
+                VerticalOptions="Center"/>
+
+        <Label Text="Delete Email (After a Week)"
+               FontSize="12"
+               Grid.Row="4"
+               Grid.Column="0"
+               VerticalTextAlignment="Center"/>
+        <Picker x:Name="picker"
+                Title="Select a color"
+                Grid.Row="4"
+                Grid.Column="2"
+                Background="{StaticResource Primary}"
+                VerticalOptions="Center">
+            <Picker.Items>
+                <x:String>Email</x:String>
+                <x:String>SMS</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <Label Text="Age:"
+               FontSize="14"
+               Grid.Row="5"
+               Grid.Column="0"
+               VerticalTextAlignment="Center"/>
+
+
+        <HorizontalStackLayout Grid.Row="5"
+                               Grid.Column="1"
+                               Spacing="20">
+            <Label Text="{Binding Value, Source={x:Reference age}}"
+                   FontSize="12"
+                   VerticalTextAlignment="Center"/>
+
+            <Stepper x:Name="age"
+                    Increment="1"
+                    Minimum="0"
+                    Maximum="100"
+                    Value="18"
+                    BackgroundColor="{StaticResource Primary}"
+                    VerticalOptions="Center"/>
+        </HorizontalStackLayout>
+
+        <Label Text="Get notifications"
+               FontSize="12"
+               Grid.Row="6"
+               Grid.Column="0"
+               VerticalTextAlignment="Center"/>
+        <CheckBox Grid.Row="6" Grid.Column="1"/>
+
+        <Button Text="Submit"
+                FontSize="14"
+                Grid.Row="7"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Margin="50,0,50,10"/>
+
+    </Grid>
+</ContentPage>

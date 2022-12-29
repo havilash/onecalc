@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:OneCalc.Models"
+             xmlns:viewmodels="clr-namespace:OneCalc.ViewModels"
+             x:Class="OneCalc.Views.CalculatorPage"
+             x:DataType="viewmodels:CalculatorViewModel"
+             Title="{Binding Title}"
+             Shell.NavBarIsVisible="False">
+    <FlexLayout Direction="Column"
+                JustifyContent="SpaceBetween"
+                Margin="4,0,4,4">
+
+        <Grid ColumnDefinitions="*" HorizontalOptions="End">
+            <Button WidthRequest="10"
+                    HeightRequest="10"
+                    BackgroundColor="{StaticResource Background}"
+                    Clicked="GoToHistoryPage"/>
+            <Image Source="history_icon.png" WidthRequest="20" />
+        </Grid>
+
+        <VerticalStackLayout Margin="10,0,10,0">
+
+            <Label Text="{Binding DisplayCalculation}"
+                   TextColor="{StaticResource Gray400}"
+                   MaxLines="1"
+                   HorizontalOptions="End"
+                   FontSize="24"/>
+            <Label Text="{Binding DisplayResult}"
+                   MaxLines="1"
+                   FontSize="32"
+                   HorizontalOptions="End"
+                   Margin="0, 0, 0, 0" />
+        </VerticalStackLayout>
+
+        <HorizontalStackLayout Spacing="20" Margin="10">
+            <Label Text="Placeholder"></Label>
+            <Label Text="Placeholder"></Label>
+        </HorizontalStackLayout>
+
+        <CollectionView x:Name="OperatorsCollectionView"
+                        ItemsSource="{Binding Operators}">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical" Span="5" VerticalItemSpacing="1" HorizontalItemSpacing="1"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Operator">
+                    <Button Text="{Binding Symbol}"
+                            Clicked="OnOperatorButtonClicked"
+                            CommandParameter="{Binding Symbol}"
+                            FontSize="14"
+                            FontAttributes="Bold"/>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+
+    </FlexLayout>
+</ContentPage>

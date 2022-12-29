@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:OneCalc.Models"
+             xmlns:viewmodels="clr-namespace:OneCalc.ViewModels"
+             x:Class="OneCalc.Views.IntroScreenPage"
+             x:DataType="viewmodels:IntroScreenViewModel"
+             Title="IntroScreen"
+             Shell.NavBarIsVisible="False">
+    <Grid Margin="10" RowDefinitions="*,Auto">
+
+        <!--<Grid RowDefinitions="60*,40*" WidthRequest="310" Margin="0,0,0,80">
+            <Image Source="onecalc_icon.png" Aspect="AspectFit" WidthRequest="250" Grid.Row="0" HorizontalOptions="Center"/>
+
+            <VerticalStackLayout Spacing="10" Grid.Row="1" Margin="15" WidthRequest="240">
+                <Label Text="Calculator" FontSize="28" FontAttributes="Bold" />
+                <Label Text="This is my first .NET MAUI project. I have created a calculator." FontSize="20"  TextColor="Gray" LineBreakMode="WordWrap"/>
+            </VerticalStackLayout>
+        </Grid>-->
+
+        <CarouselView Grid.Row="0" ItemsSource="{Binding IntroScreenModels}"
+                      IndicatorView="indicatorView"
+                      Loop="False"
+                      HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <CarouselView.ItemTemplate>
+                <DataTemplate x:DataType="models:IntroScreenModel">
+                    <Grid RowDefinitions="60*,40*" WidthRequest="310" Margin="0,0,0,80">
+                        <Image Source="{Binding IntroImage}" Aspect="AspectFit" WidthRequest="250" Grid.Row="0" HorizontalOptions="Center"/>
+
+                        <VerticalStackLayout Spacing="10" Grid.Row="1" Margin="15" WidthRequest="240">
+                            <Label Text="{Binding IntroTitle}" FontSize="28" FontAttributes="Bold" />
+                            <Label Text="{Binding IntroDescription}" FontSize="20"  TextColor="Gray" LineBreakMode="WordWrap"/>
+                        </VerticalStackLayout>
+                    </Grid>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+        <HorizontalStackLayout  Grid.Row="1">
+            <IndicatorView x:Name="indicatorView" 
+                           VerticalOptions="Center"
+                           IndicatorSize="10"
+                           IndicatorColor="LightGray"  
+                           SelectedIndicatorColor="{x:StaticResource Primary}" />
+
+            <Frame 
+                HorizontalOptions="EndAndExpand"
+                Padding="0"
+                   CornerRadius="30"
+                    HeightRequest="60" 
+                   WidthRequest="60" 
+                   BackgroundColor="{x:StaticResource Primary}">
+                <Label Text="OneCalc" TextColor="White" 
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center" 
+                       VerticalTextAlignment="Center" />
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding NextCommand}" />
+                </Frame.GestureRecognizers>
+            </Frame>
+        </HorizontalStackLayout>
+        <!--<Button Text="OneCalc" 
+                Grid.Row="1"
+                Margin="50,0,50,50"
+                Command="{Binding OnOneCalcButtonClickedCommand}"/>-->
+    </Grid>
+</ContentPage>

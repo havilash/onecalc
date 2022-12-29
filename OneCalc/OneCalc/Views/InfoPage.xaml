@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:OneCalc.Models"
+             xmlns:viewmodels="clr-namespace:OneCalc.ViewModels"
+             x:Class="OneCalc.Views.InfoPage"
+             x:DataType="viewmodels:InfoViewModel"
+             Title="{Binding Title}"
+             Shell.NavBarIsVisible="False">
+    <ScrollView Padding="24" HorizontalScrollBarVisibility="Never">
+        <VerticalStackLayout>
+            <Label Text="OneCalc"
+               FontSize="26"
+               FontAttributes="Bold"/>
+            <Label Text="{Binding Version, StringFormat='Version: {0}'}"
+                FontSize="12"/>
+
+
+            <BoxView HeightRequest="1"
+                     Color="Gray" />
+            <Label Text="Copyright 2022 Gibb"
+               FontSize="14"
+               FontAttributes="Bold"
+               Margin="0,5,0,0"/>
+            <Label Text="All rights reserved. No part of this app template may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the copyright owner, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law. For permission requests, write to the copyright owner at info@gibb.ch."
+                FontSize="12"/>
+            <Label Text="This app template is provided 'as is' without warranty of any kind, either express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, or non-infringement."
+                FontSize="12"/>
+
+            <Label Text="Impressum"
+               FontSize="14"
+               FontAttributes="Bold"
+               Margin="0,5,0,0"/>
+            <Label Text="Adress" FontSize="12" />
+            <Label Text="gibb Berufsfachschule Bern" FontSize="12" />
+            <Label Text="Lorrainestrasse 1" FontSize="12" />
+            <Label Text="Postfach 248" FontSize="12" />
+            <Label Text="3000 Bern 22" FontSize="12" />
+            <Label Text="Telefon:031 335 91 11" FontSize="12" />
+            <Label Text="Fax: 031 335 91 60" FontSize="12" />
+            <Label Text="Webmaster: webmaster@gibb.ch" FontSize="12" />
+
+            <Button Text="Contact" 
+                Margin="50,20,50,0"
+                Clicked="GoToContact"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>
