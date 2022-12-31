@@ -47,24 +47,23 @@ public class IntroScreenViewModel : BaseViewModel
     {
         IntroScreens.Add(new IntroScreenModel
         {
-            IntroTitle = "Order Your Food",
-            IntroDescription = "Now you can order food anytime right from mobile",
-            IntroImage = "order"
+            IntroTitle = "OneCalc",
+            IntroDescription = "This is my first .NET MAUI project.",
+            IntroImage = "onecalc_icon.png"
         });
-
         IntroScreens.Add(new IntroScreenModel
         {
-            IntroTitle = "Cooking Safe Food",
-            IntroDescription = "We are maintain safty and we keep clean while making food",
-            IntroImage = "cooking"
+            IntroTitle = "Navigation",
+            IntroDescription = "Using the button at the top left, you can navigate between pages.",
+            IntroImage = "navigation_screenshot.png"
         });
-
         IntroScreens.Add(new IntroScreenModel
         {
-            IntroTitle = "Quick Delivery",
-            IntroDescription = "Orders your favorite meals will be immediately deliver.",
-            IntroImage = "delivery"
+            IntroTitle = "Calculator",
+            IntroDescription = "To navigate to the scientific calculator press next or open the menu.",
+            IntroImage = "calculator_screenshot.png"
         });
+
     }
 
 

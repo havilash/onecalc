@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:models="clr-namespace:OneCalc.Models"
              xmlns:viewmodels="clr-namespace:OneCalc.ViewModels"
+             xmlns:views="clr-namespace:OneCalc.Views"
              x:Class="OneCalc.Views.CalculatorPage"
              x:DataType="viewmodels:CalculatorViewModel"
              Title="{Binding Title}"
@@ -11,12 +12,10 @@
                 JustifyContent="SpaceBetween"
                 Margin="4,0,4,4">
 
-        <Grid ColumnDefinitions="*" HorizontalOptions="End">
-            <Button WidthRequest="10"
-                    HeightRequest="10"
-                    BackgroundColor="{StaticResource Background}"
-                    Clicked="GoToHistoryPage"/>
-            <Image Source="history_icon.png" WidthRequest="20" />
+        <Grid ColumnDefinitions="*" HorizontalOptions="End" x:DataType="views:CalculatorPage">
+            <Button Background="{StaticResource Background}" Clicked="GoToHistoryPage" />
+            <Image Source="history_icon.png" WidthRequest="20" >
+            </Image>
         </Grid>
 
         <VerticalStackLayout Margin="10,0,10,0">
@@ -33,9 +32,18 @@
                    Margin="0, 0, 0, 0" />
         </VerticalStackLayout>
 
-        <HorizontalStackLayout Spacing="20" Margin="10">
-            <Label Text="Placeholder"></Label>
-            <Label Text="Placeholder"></Label>
+        <HorizontalStackLayout Spacing="25" Margin="5">
+            <HorizontalStackLayout Spacing="6">
+                <Image Source="trigonometry_icon.png" WidthRequest="14"/>
+                <Label Text="Trigonometry" />
+            </HorizontalStackLayout>
+                
+            <HorizontalStackLayout Spacing="6">
+                <Image Source="function_icon.png" WidthRequest="14"/>
+                <Label Text="Functions" />
+            </HorizontalStackLayout>
+            <!--<Label Text="Trigonometry" Icon="trigonometry_icon.png"></Label>-->
+            <!--<Button Text="Function" ImageSource="function_icon.png"></Button>-->
         </HorizontalStackLayout>
 
         <CollectionView x:Name="OperatorsCollectionView"

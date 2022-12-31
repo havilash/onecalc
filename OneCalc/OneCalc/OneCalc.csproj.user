@@ -20,6 +20,9 @@
     <MauiXaml Update="Views\GraphingPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\HistoryPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\InfoPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

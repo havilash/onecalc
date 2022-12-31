@@ -48,9 +48,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\function_icon.png" />
 	  <None Remove="Resources\Images\history_icon.svg" />
 	  <None Remove="Resources\Images\OneCalc_appicon.png" />
 	  <None Remove="Resources\Images\onecalc_icon.png" />
+	  <None Remove="Resources\Images\trigonometry_icon.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -83,6 +85,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\GraphingPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\HistoryPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\InfoPage.xaml">

@@ -4,7 +4,7 @@ namespace OneCalc.Views;
 
 using org.matheval;
 using System.Data;
-
+using System.Windows.Input;
 
 public partial class CalculatorPage : ContentPage
 {
@@ -13,6 +13,7 @@ public partial class CalculatorPage : ContentPage
     public CalculatorPage() {
         InitializeComponent();
         this.BindingContext = calculatorViewModel;
+
     }
 
     private void OnOperatorButtonClicked(object sender, EventArgs e)
@@ -22,7 +23,7 @@ public partial class CalculatorPage : ContentPage
 
     async public void GoToHistoryPage(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new ContactPage());
+        await Navigation.PushAsync(new HistoryPage());
 
     }
 }

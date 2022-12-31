@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-12-29T18:37:47.504</Modified>
+      <Modified>2022-12-31T15:21:55.697</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-12-29T18:37:46.984</Modified>
+      <Modified>2022-12-31T15:21:55.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\OneCalc.runtimeconfig.json">
       <PackagePath>OneCalc.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\OneCalc.dll">
       <PackagePath>OneCalc.dll</PackagePath>
-      <Modified>2022-12-29T18:37:46.115</Modified>
+      <Modified>2022-12-31T15:21:53.577</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>OneCalc.exe</PackagePath>
-      <Modified>2022-12-29T18:37:46.123</Modified>
+      <Modified>2022-12-31T15:21:53.593</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.0\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -920,7 +920,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\OneCalc.deps.json">
       <PackagePath>OneCalc.deps.json</PackagePath>
-      <Modified>2022-12-29T18:37:47.388</Modified>
+      <Modified>2022-12-31T15:21:55.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.49\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1150,49 +1150,65 @@
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2022-12-22T17:42:46.802</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\calculator_screenshot.scale-100.png">
+      <PackagePath>calculator_screenshot.scale-100.png</PackagePath>
+      <Modified>2022-12-29T19:22:51.923</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.570</Modified>
+      <Modified>2022-12-31T14:56:12.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.581</Modified>
+      <Modified>2022-12-31T14:56:12.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.598</Modified>
+      <Modified>2022-12-31T14:56:12.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.626</Modified>
+      <Modified>2022-12-31T14:56:12.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.692</Modified>
+      <Modified>2022-12-31T14:56:12.353</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\function_icon.scale-100.png">
+      <PackagePath>function_icon.scale-100.png</PackagePath>
+      <Modified>2022-12-31T14:54:30.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\history_icon.scale-100.png">
       <PackagePath>history_icon.scale-100.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.564</Modified>
+      <Modified>2022-12-31T14:56:12.243</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\history_icon.scale-125.png">
       <PackagePath>history_icon.scale-125.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.567</Modified>
+      <Modified>2022-12-31T14:56:12.243</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\history_icon.scale-150.png">
       <PackagePath>history_icon.scale-150.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.569</Modified>
+      <Modified>2022-12-31T14:56:12.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\history_icon.scale-200.png">
       <PackagePath>history_icon.scale-200.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.570</Modified>
+      <Modified>2022-12-31T14:56:12.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\history_icon.scale-400.png">
       <PackagePath>history_icon.scale-400.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.570</Modified>
+      <Modified>2022-12-31T14:56:12.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\navigation_instruction.scale-100.png">
+      <PackagePath>navigation_instruction.scale-100.png</PackagePath>
+      <Modified>2022-12-29T19:19:37.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\navigation_screenshot.scale-100.png">
+      <PackagePath>navigation_screenshot.scale-100.png</PackagePath>
+      <Modified>2022-12-29T19:19:37.566</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appicon.ico">
       <PackagePath>onecalc_appicon.ico</PackagePath>
-      <Modified>2022-12-29T18:20:58.567</Modified>
+      <Modified>2022-12-31T14:56:12.243</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appicon.scale-100.png">
       <PackagePath>onecalc_appicon.scale-100.png</PackagePath>
@@ -1200,187 +1216,191 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLargeTile.scale-100.png">
       <PackagePath>onecalc_appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.822</Modified>
+      <Modified>2022-12-31T14:56:12.462</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLargeTile.scale-125.png">
       <PackagePath>onecalc_appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.844</Modified>
+      <Modified>2022-12-31T14:56:12.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLargeTile.scale-150.png">
       <PackagePath>onecalc_appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.854</Modified>
+      <Modified>2022-12-31T14:56:12.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLargeTile.scale-200.png">
       <PackagePath>onecalc_appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.887</Modified>
+      <Modified>2022-12-31T14:56:12.494</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLargeTile.scale-400.png">
       <PackagePath>onecalc_appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.988</Modified>
+      <Modified>2022-12-31T14:56:12.573</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>onecalc_appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.616</Modified>
+      <Modified>2022-12-31T14:56:12.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>onecalc_appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.617</Modified>
+      <Modified>2022-12-31T14:56:12.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>onecalc_appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.628</Modified>
+      <Modified>2022-12-31T14:56:12.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>onecalc_appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.619</Modified>
+      <Modified>2022-12-31T14:56:12.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>onecalc_appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.621</Modified>
+      <Modified>2022-12-31T14:56:12.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>onecalc_appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.601</Modified>
+      <Modified>2022-12-31T14:56:12.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>onecalc_appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.603</Modified>
+      <Modified>2022-12-31T14:56:12.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>onecalc_appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.614</Modified>
+      <Modified>2022-12-31T14:56:12.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>onecalc_appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.605</Modified>
+      <Modified>2022-12-31T14:56:12.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>onecalc_appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.607</Modified>
+      <Modified>2022-12-31T14:56:12.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.scale-100.png">
       <PackagePath>onecalc_appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.570</Modified>
+      <Modified>2022-12-31T14:56:12.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.scale-125.png">
       <PackagePath>onecalc_appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.570</Modified>
+      <Modified>2022-12-31T14:56:12.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.scale-150.png">
       <PackagePath>onecalc_appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.575</Modified>
+      <Modified>2022-12-31T14:56:12.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.scale-200.png">
       <PackagePath>onecalc_appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.578</Modified>
+      <Modified>2022-12-31T14:56:12.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.scale-400.png">
       <PackagePath>onecalc_appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.581</Modified>
+      <Modified>2022-12-31T14:56:12.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.targetsize-16.png">
       <PackagePath>onecalc_appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.581</Modified>
+      <Modified>2022-12-31T14:56:12.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.targetsize-24.png">
       <PackagePath>onecalc_appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.586</Modified>
+      <Modified>2022-12-31T14:56:12.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.targetsize-256.png">
       <PackagePath>onecalc_appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.598</Modified>
+      <Modified>2022-12-31T14:56:12.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.targetsize-32.png">
       <PackagePath>onecalc_appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.587</Modified>
+      <Modified>2022-12-31T14:56:12.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconLogo.targetsize-48.png">
       <PackagePath>onecalc_appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.587</Modified>
+      <Modified>2022-12-31T14:56:12.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconMediumTile.scale-100.png">
       <PackagePath>onecalc_appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.676</Modified>
+      <Modified>2022-12-31T14:56:12.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconMediumTile.scale-125.png">
       <PackagePath>onecalc_appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.680</Modified>
+      <Modified>2022-12-31T14:56:12.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconMediumTile.scale-150.png">
       <PackagePath>onecalc_appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.685</Modified>
+      <Modified>2022-12-31T14:56:12.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconMediumTile.scale-200.png">
       <PackagePath>onecalc_appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.692</Modified>
+      <Modified>2022-12-31T14:56:12.368</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconMediumTile.scale-400.png">
       <PackagePath>onecalc_appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.715</Modified>
+      <Modified>2022-12-31T14:56:12.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconSmallTile.scale-100.png">
       <PackagePath>onecalc_appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.648</Modified>
+      <Modified>2022-12-31T14:56:12.328</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconSmallTile.scale-125.png">
       <PackagePath>onecalc_appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.648</Modified>
+      <Modified>2022-12-31T14:56:12.328</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconSmallTile.scale-150.png">
       <PackagePath>onecalc_appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.656</Modified>
+      <Modified>2022-12-31T14:56:12.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconSmallTile.scale-200.png">
       <PackagePath>onecalc_appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.661</Modified>
+      <Modified>2022-12-31T14:56:12.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconSmallTile.scale-400.png">
       <PackagePath>onecalc_appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.671</Modified>
+      <Modified>2022-12-31T14:56:12.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconStoreLogo.scale-100.png">
       <PackagePath>onecalc_appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.633</Modified>
+      <Modified>2022-12-31T14:56:12.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconStoreLogo.scale-125.png">
       <PackagePath>onecalc_appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.633</Modified>
+      <Modified>2022-12-31T14:56:12.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconStoreLogo.scale-150.png">
       <PackagePath>onecalc_appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.633</Modified>
+      <Modified>2022-12-31T14:56:12.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconStoreLogo.scale-200.png">
       <PackagePath>onecalc_appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.640</Modified>
+      <Modified>2022-12-31T14:56:12.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconStoreLogo.scale-400.png">
       <PackagePath>onecalc_appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.646</Modified>
+      <Modified>2022-12-31T14:56:12.328</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconWideTile.scale-100.png">
       <PackagePath>onecalc_appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.719</Modified>
+      <Modified>2022-12-31T14:56:12.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconWideTile.scale-125.png">
       <PackagePath>onecalc_appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.727</Modified>
+      <Modified>2022-12-31T14:56:12.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconWideTile.scale-150.png">
       <PackagePath>onecalc_appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.743</Modified>
+      <Modified>2022-12-31T14:56:12.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconWideTile.scale-200.png">
       <PackagePath>onecalc_appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.756</Modified>
+      <Modified>2022-12-31T14:56:12.415</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_appiconWideTile.scale-400.png">
       <PackagePath>onecalc_appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-12-29T18:20:58.814</Modified>
+      <Modified>2022-12-31T14:56:12.462</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onecalc_icon.scale-100.png">
       <PackagePath>onecalc_icon.scale-100.png</PackagePath>
       <Modified>2022-11-17T17:34:32.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\trigonometry_icon.scale-100.png">
+      <PackagePath>trigonometry_icon.scale-100.png</PackagePath>
+      <Modified>2022-12-31T14:49:47.735</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

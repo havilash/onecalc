@@ -65,8 +65,8 @@
         
         </Entry>
 
-        <Label Text="Delete Data"
-               FontSize="14"
+        <Label Text="Delete Email (After a Week)"
+               FontSize="12"
                Grid.Row="3"
                Grid.Column="0"
                VerticalTextAlignment="Center"/>
@@ -74,13 +74,13 @@
                 Grid.Column="1"
                 VerticalOptions="Center"/>
 
-        <Label Text="Delete Email (After a Week)"
+        <Label Text="Get Message per"
                FontSize="12"
                Grid.Row="4"
                Grid.Column="0"
                VerticalTextAlignment="Center"/>
+
         <Picker x:Name="picker"
-                Title="Select a color"
                 Grid.Row="4"
                 Grid.Column="2"
                 Background="{StaticResource Primary}"

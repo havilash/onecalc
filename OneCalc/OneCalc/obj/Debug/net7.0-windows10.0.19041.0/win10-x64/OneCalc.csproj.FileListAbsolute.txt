@@ -375,3 +375,8 @@ C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneC
 C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\history_icon.scale-400.png
 C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.dll
 C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.Core.dll
+C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\navigation_instruction.scale-100.png
+C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\calculator_screenshot.scale-100.png
+C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\navigation_screenshot.scale-100.png
+C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\function_icon.scale-100.png
+C:\Users\havil\OneDrive - gibb Berufsfachschule Bern\Module\iet-322\OneCalc\OneCalc\OneCalc\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\trigonometry_icon.scale-100.png

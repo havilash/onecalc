@@ -7,12 +7,12 @@
     FlyoutBehavior="Flyout" 
     Shell.TabBarIsVisible="False">
 
-    <FlyoutItem Title="Intro" IsVisible="True">
+    <FlyoutItem Title="Intro" IsVisible="True" x:Name="introFlyoutItem">
         <ShellContent ContentTemplate="{DataTemplate views:IntroScreenPage}" />
     </FlyoutItem>
     
     <FlyoutItem Title="Calculator">
-        <ShellContent ContentTemplate="{DataTemplate views:CalculatorPage}" />
+        <ShellContent ContentTemplate="{DataTemplate views:CalculatorPage}" Route="CalculatorPage" />
     </FlyoutItem>
     <FlyoutItem Title="Graphing">
         <ShellContent ContentTemplate="{DataTemplate views:GraphingPage}" />

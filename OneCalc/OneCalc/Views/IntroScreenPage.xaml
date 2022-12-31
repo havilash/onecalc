@@ -18,50 +18,34 @@
             </VerticalStackLayout>
         </Grid>-->
 
-        <CarouselView Grid.Row="0" ItemsSource="{Binding IntroScreenModels}"
-                      IndicatorView="indicatorView"
+        <CarouselView Grid.Row="0" Position="{Binding Position}"
+                      IndicatorView="indicatorView" 
                       Loop="False"
-                      HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                      HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
+                      ItemsSource="{Binding IntroScreens}">
             <CarouselView.ItemTemplate>
                 <DataTemplate x:DataType="models:IntroScreenModel">
-                    <Grid RowDefinitions="60*,40*" WidthRequest="310" Margin="0,0,0,80">
-                        <Image Source="{Binding IntroImage}" Aspect="AspectFit" WidthRequest="250" Grid.Row="0" HorizontalOptions="Center"/>
+                    <Grid RowDefinitions="60*,70*">
+                        <Image Source="{Binding IntroImage}" Aspect="AspectFit" Grid.Row="0" />
 
-                        <VerticalStackLayout Spacing="10" Grid.Row="1" Margin="15" WidthRequest="240">
+                        <VerticalStackLayout Spacing="10" Grid.Row="1">
                             <Label Text="{Binding IntroTitle}" FontSize="28" FontAttributes="Bold" />
-                            <Label Text="{Binding IntroDescription}" FontSize="20"  TextColor="Gray" LineBreakMode="WordWrap"/>
+                            <Label Text="{Binding IntroDescription}" FontSize="20" TextColor="Gray" 
+                                   LineBreakMode="WordWrap" VerticalOptions="FillAndExpand"/>
                         </VerticalStackLayout>
                     </Grid>
                 </DataTemplate>
             </CarouselView.ItemTemplate>
         </CarouselView>
-        <HorizontalStackLayout  Grid.Row="1">
+        <StackLayout  Orientation="Horizontal"  
+                      Grid.Row="1" >
             <IndicatorView x:Name="indicatorView" 
                            VerticalOptions="Center"
                            IndicatorSize="10"
                            IndicatorColor="LightGray"  
                            SelectedIndicatorColor="{x:StaticResource Primary}" />
 
-            <Frame 
-                HorizontalOptions="EndAndExpand"
-                Padding="0"
-                   CornerRadius="30"
-                    HeightRequest="60" 
-                   WidthRequest="60" 
-                   BackgroundColor="{x:StaticResource Primary}">
-                <Label Text="OneCalc" TextColor="White" 
-                       FontSize="18"
-                       FontAttributes="Bold"
-                       HorizontalTextAlignment="Center" 
-                       VerticalTextAlignment="Center" />
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer Command="{Binding NextCommand}" />
-                </Frame.GestureRecognizers>
-            </Frame>
-        </HorizontalStackLayout>
-        <!--<Button Text="OneCalc" 
-                Grid.Row="1"
-                Margin="50,0,50,50"
-                Command="{Binding OnOneCalcButtonClickedCommand}"/>-->
+            <Button HorizontalOptions="EndAndExpand" Text="Next" Command="{Binding NextCommand}"/>
+        </StackLayout>
     </Grid>
 </ContentPage>

@@ -2,8 +2,19 @@
 
 public partial class AppShell : Shell
 {
-	public AppShell()
+    bool OnboardingShown
+    {
+        get => Microsoft.Maui.Storage.Preferences.Get("OnboardingShown", false);
+        set => Microsoft.Maui.Storage.Preferences.Set("OnboardingShown", value);
+    }
+    public AppShell()
 	{
-		InitializeComponent();
-	}
+
+        //OnboardingShown = false;
+        InitializeComponent();
+        if (OnboardingShown)
+            introFlyoutItem.IsVisible = false;
+        else
+            OnboardingShown = true;
+    }
 }

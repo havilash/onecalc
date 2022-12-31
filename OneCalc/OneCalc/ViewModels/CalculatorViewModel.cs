@@ -263,7 +263,5 @@ namespace OneCalc.ViewModels
                 calculation.Add(string.Format(exp, s));
             }
         }
-
-
     }
 }
